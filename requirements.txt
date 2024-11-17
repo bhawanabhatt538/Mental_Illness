@@ -1,0 +1,32 @@
+# Data manipulation and analysis
+pandas==1.5.3          # For data manipulation and analysis
+numpy==1.24.3          # For numerical operations
+
+# Machine learning libraries
+scikit-learn==1.2.2    # For machine learning algorithms and utilities
+xgboost==1.7.1         # For XGBoost algorithm
+
+# Statistical modeling
+statsmodels==0.14.0    # For statistical models (OLS, regression)
+
+# Data visualization
+matplotlib==3.7.1      # For plotting and visualizations
+seaborn==0.12.2        # For advanced visualizations
+
+# Performance metrics
+scikit-learn==1.2.2    # For performance metrics (accuracy, precision, etc.)
+
+# General utility
+math==0.1              # For math operations like sqrt
+time==0.1              # Standard library for timing operations
+random==0.1            # Standard library for generating random numbers
+
+# To suppress warnings
+warnings==0.15.1       # For controlling warning behavior
+
+# Optional for advanced plotting (ggplot style)
+matplotlib-inline==0.1 # Optional, for Jupyter compatibility with matplotlib
+
+pip freeze > requirements.txt
+
+pip install -r requirements.txt
